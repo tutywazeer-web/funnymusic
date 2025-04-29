@@ -1,13 +1,13 @@
 from TEAMZYRO.core.bot import ZYRO
 from TEAMZYRO.core.dir import dirr
 from TEAMZYRO.core.git import git
-from TEAMZYRO.core.waifu_databese import *
+#from TEAMZYRO.core.waifu_databese import *
 from TEAMZYRO.core.userbot import Userbot
 from TEAMZYRO.misc import dbb, heroku
 from pyrogram import Client
 from SafoneAPI import SafoneAPI
 from .logging import LOGGER
-from TEAMZYRO.core.application import application
+#from TEAMZYRO.core.application import application
 
 dirr()
 git()
@@ -17,7 +17,7 @@ heroku()
 app = ZYRO()
 api = SafoneAPI()
 userbot = Userbot()
-application = application
+#application = application
 
 from .platforms import *
 
@@ -45,9 +45,3 @@ user_nguess_progress = {}
 user_guess_progress = {}
 
 # -------------------------- POWER SETUP --------------------------------
-# from TEAMZYRO.plugins.waifu.unit.zyro_ban import *
-# from TEAMZYRO.plugins.waifu.unit.zyro_sudo import *
-# from TEAMZYRO.plugins.waifu.unit.zyro_react import *
-# from TEAMZYRO.plugins.waifu.unit.zyro_send_img import *
-# from TEAMZYRO.plugins.waifu.unit.zyro_guess import *
-# from TEAMZYRO.plugins.waifu.unit.zyro_rarity import *
