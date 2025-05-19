@@ -51,6 +51,11 @@
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
         "value": "-1002155818429",
         "required": true
+      },
+      "NEXI_VID": {
+        "description": Startvideo",
+        "value": "https://files.catbox.moe/ror8ec.MP4",
+        "required": true
       }
     },
     "buildpacks": [
