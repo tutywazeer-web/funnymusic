@@ -14,24 +14,24 @@ API_HASH = getenv("API_HASH", "481ecac3c79250f4c5f1a9eb7635c658")
 
 EVAL = list(map(int, getenv("EVAL", "0000000 0000000").split()))
 # ------------------------------------------------------
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "8364748563:AAENL3fN7FOVLRYISqky14CGJ2GHHjZg7hw")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "")
+BOT_USERNAME = getenv("BOT_USERNAME" , "@Tfc_musicbot")
 # --------------------------------------------------------
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
-DB_NAME = getenv("DB_NAME", "Zyro")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://musicdb:12345@cluster0.o7l4cdt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = getenv("DB_NAME", "musicdb")
 #---------------------------------------------------------------
 # ----------------------------------------------------------------
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", -1002155818429))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002959186243))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 7638720582))
+OWNER_ID = int(getenv("OWNER_ID", 1576657217))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 # ----------------------------------------------------------------
@@ -59,8 +59,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Zyro_Network")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+HP8Ug5n1jXIyOTU9")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/privetindianbots")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/tamillan_chat")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
